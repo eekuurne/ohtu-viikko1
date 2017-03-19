@@ -145,7 +145,7 @@ public class VarastoTest {
     public void negatiivinenAlkusaldoKonstruktorissa() {
         varasto = new Varasto(1,-1);
 
-        assertEquals(1, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
